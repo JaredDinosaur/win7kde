@@ -31,6 +31,7 @@ cp -r misc/branding ~/.config/kdedefaults
 cd ..
 git clone https://gitgud.io/wackyideas/linver.git
 cd linver
+chmod +x add_rule.sh
 ./install.sh
 ./add_rule.sh
 echo
@@ -66,3 +67,4 @@ echo "- Set Konsole line spacing and margins to 0"
 echo "- Edit bashrc (optional)"
 echo "- Set Konsole tab title to Command Prompt"
 echo "- Remove help and pin control in Window Decorations"
+
